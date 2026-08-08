@@ -39,7 +39,7 @@ body {
 
 a { color: inherit; text-decoration: none; }
 
-/* ---------- TOPBAR ---------- */
+/* TOPBAR */
 .topbar {
   position: sticky;
   top: 0;
@@ -71,7 +71,7 @@ a { color: inherit; text-decoration: none; }
 }
 .topnav a:hover { color: var(--accent-blue); }
 
-/* ---------- HERO / TERMINAL ---------- */
+/* Terminal */
 .hero {
   max-width: 800px;
   margin: 72px auto 96px;
@@ -138,7 +138,7 @@ a { color: inherit; text-decoration: none; }
 }
 @keyframes blink { 50% { opacity: 0; } }
 
-/* ---------- SECTIONS ---------- */
+/* SECTIONS */
 .projects, .contact {
   max-width: 960px;
   margin: 0 auto 96px;
@@ -163,7 +163,7 @@ a { color: inherit; text-decoration: none; }
   margin: 0 0 28px;
 }
 
-/* ---------- REPO CARDS ---------- */
+/* REPO CARDS */
 .repo-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -220,7 +220,7 @@ a { color: inherit; text-decoration: none; }
   font-size: 11px;
 }
 
-/* ---------- CONTACT ---------- */
+/* CONTACT  */
 .contact-links {
   display: flex;
   gap: 28px;
@@ -234,7 +234,7 @@ a { color: inherit; text-decoration: none; }
 }
 .contact-links a:hover { border-color: var(--accent-green); }
 
-/* ---------- FOOTER ---------- */
+/* FOOTER */
 .footer {
   text-align: center;
   padding: 32px 24px 48px;
@@ -244,7 +244,6 @@ a { color: inherit; text-decoration: none; }
 }
 .heart { color: var(--accent-purple); }
 
-/* Accessibility: keyboard focus */
 a:focus-visible {
   outline: 2px solid var(--accent-blue);
   outline-offset: 3px;
